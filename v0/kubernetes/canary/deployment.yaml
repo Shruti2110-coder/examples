@@ -22,7 +22,7 @@ spec:
         image: ghcr.io/pipe-cd/helloworld:v0.32.0
         env:
         - name: GREETING
-          value: "Hello from Shruti"
+          value: "Hello again from Shruti"
         args:
           - server
         ports:
