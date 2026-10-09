@@ -17,7 +17,7 @@ spec:
         app: canary
         pipecd.dev/variant: primary
     spec:
-    containers:
+      containers:
       - name: helloworld
         image: ghcr.io/pipe-cd/helloworld:v0.32.0
         env:
